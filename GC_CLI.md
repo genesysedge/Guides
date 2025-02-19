@@ -1,6 +1,6 @@
 # Instructions to Setup the Genesys Cloud CLI
 ## Prerequisites
-> Please Note: ohmyzsh has an alias that will conflict with gc. To correct this either add unalias gc to the end of your ~/.zshrc, or renmae the gc binary to another suitable name. 
+> Please Note: ohmyzsh has an alias that will conflict with gc. To correct this either add unalias gc to the end of your ~/.zshrc, or rename the gc binary to another suitable name. 
 
 ## Install Option 1 (This will pull the lastest version directly from Git)
 ### Install and setup Go 
