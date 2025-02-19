@@ -1,7 +1,6 @@
 # Instructions to Setup the Genesys Cloud CLI
-## Prerequisites
-> Please Note: ohmyzsh has an alias that will conflict with gc. To correct this either add unalias gc to the end of your ~/.zshrc, or rename the gc binary to another suitable name. 
-
+## Important Notes
+> ohmyzsh has an alias that will conflict with gc. To correct this either add unalias gc to the end of your ~/.zshrc, or rename the gc binary to another suitable name. 
 ## Install Option 1 (This will pull the lastest version directly from Git)
 ### Install and setup Go 
 Follow the instructions for your OS on [go.dev](https://go.dev/doc/install)
@@ -37,6 +36,11 @@ In your terminal run the command below to create a new profile
 ``` bash
 gc profiles new
 ```
+## Basic Usuage examples
+
+### Video example
+[Here](https://www.youtube.com/watch?v=OnYDs5NsLpU&list=PL01cVFOkuN70Rk8xgI8pk_tKMcTW4FesF) is a brief video demonstration made by Genesys. 
+
 
 You'll need to enter the following
 - name 
