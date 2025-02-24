@@ -35,7 +35,7 @@ curl -s https://sdk-cdn.mypurecloud.com/external/go-cli/linux/dl/install.sh | su
 Download from the Genesys [CDN](https://sdk-cdn.mypurecloud.com/external/go-cli/windows/latest/gc.exe). Once downloaded, move the executable to a directory on your PATH. For more information about the PATH variable on Windows, refer to [this page](https://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them#:~:text=or%20user%20sessions.-,Path,-One%20of%20the).
 
 ## Setup
-Before we set up the CLI, you'll need to create an OAuth Grant. Go to your instance and set up an OAuth client. You can refer to [this](https://help.mypurecloud.com/articles/create-an-oauth-client/) page for detailed instructions. I used a Client Credentials grant since it was easy to set up, and I'm doing this with a lab instance. Be sure to assign appropiate roles if using this grant type. Copy the client ID and client secret once you have the OAuth client setup.
+Before we set up the CLI, you'll need to create an OAuth Grant. Go to your instance and set up an OAuth client. You can refer to [this](https://help.mypurecloud.com/articles/create-an-oauth-client/) page for detailed instructions. I beleive Client Credentials is the Genesys recommended type based [this](https://www.youtube.com/watch?v=OnYDs5NsLpU&list=PL01cVFOkuN70Rk8xgI8pk_tKMcTW4FesF&index=2) devdrop video. Be sure to assign appropiate roles if using this grant type. Copy the client ID and client secret once you have the OAuth client setup.
 In your terminal run the command below to create a new profile
 ``` bash
 gc profiles new
