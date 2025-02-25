@@ -1,8 +1,13 @@
 # Genesys Guides
-This is my attempt to localize information related to the different Genesys Tools. This repo will include setup, basic usage, and information on how these tools work together. This is not intended to be a replacement for existing documentation.<br>
+This is my attempt to localize information related to the different Genesys Tools. This repo will include setup, basic usage, and information on how these tools work together. This is not intended to be a replacement for existing documentation. <br>
+
+## API Explorer
+API Explorer allows you to view documentation and SDK usage and make requests to the Genesys Cloud Public API from your browser. <br>
+[Genesys Documentation](https://developer.genesys.cloud/devapps/about/api-explorer)<br>
+[API Explorer](https://developer.genesys.cloud/devapps/api-explorer)<br>
 
 ## Genesys Cloud CLI
-Genesys CLI is a command-line tool available for Windows, macOS, and Linux. This tool is a wrapper for the Genesys APIs. It provides the same information in an easier to use form for desktop use.<br>
+Genesys CLI is a command-line tool available for Windows, macOS, and Linux. This tool is a wrapper for the Genesys APIs. It provides the same information in an easier to use form for desktop use. <br>
 [Genesys Documentation](https://developer.genesys.cloud/devapps/cli/)<br>
 [My GC ClI Guide](GC_CLI.md)<br>
 
@@ -11,7 +16,7 @@ Archy is a Genesys Cloud Architect YAML processor that lets you create Architect
 [Genesys Documentation](https://developer.genesys.cloud/devapps/archy/)<br>
 [My Archy Guide](Archy.md)<br>
 
-## TerraForm
+## Terraform
 Terraform is an Infrastructure as Code (IaC) tool that allows you to define and manage your cloud resources using declarative configuration files. Using the Genesys Provider, you can provision, configure, and manage your Genesys Environment using these configuration files.<br>
 [Terraform Documentation](https://developer.hashicorp.com/terraform/intro)<br>
 [Genesys Documentation](https://developer.genesys.cloud/devapps/cx-as-code/)<br>
@@ -31,6 +36,4 @@ Here are a few additional tools that can enhance the functionality and usability
 jq is a CLI JSON processor. It allows you to parse, filter, and transform JSON. We will use it to manipulate the results from the CLI. 
 
 ### Installing jq
-Refer to the [downloads](https://jqlang.org/download/) page for your OS.<br> 
-
-
+Refer to the [downloads](https://jqlang.org/download/) page for your OS.<br>
